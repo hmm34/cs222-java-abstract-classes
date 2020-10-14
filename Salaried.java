@@ -8,7 +8,7 @@ public class Salaried extends Employee {
    }
    
    public void mailCheck() {
-      System.out.println("Salaried: Mailing check to " + super.getName() + " with salary " + salary);
+      System.out.println("Salaried: Mailing check to " + getName() + " with salary " + salary);
    }
  
    public double getSalary() {
